@@ -1,0 +1,104 @@
+/* Header Component Styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #444444;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar-logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 50%;
+  }
+  
+  .logo-name {
+    font-size: 1.5rem;
+    color: #ffffff;
+    font-family:'Abril Fatface';
+    
+  }
+  
+  .navbar-menu {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-item {
+    margin: 0 15px;
+    cursor: pointer;
+    color: #eee1e1;
+    font-size: 1.5rem;
+  }
+  
+  .menu-icon {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+  }
+  
+  .bar {
+    width: 30px;
+    height: 3px;
+    background-color: #e2dfdf;
+    margin: 3px 0;
+  }
+  
+  .open {
+    transform: rotate(25deg);
+    transition: transform 0.3s ease-in-out;
+    z-index: 1;
+    background-color: #631f1f; /* Vibrant background color */
+    padding: 10px; /* Slightly reduced padding */
+    border: 2px solid #ffffff; /* White border */
+    border-radius: 8px; /* Rounded corners */
+    color: #ffffff; /* White text color */
+    font-weight: bold; /* Bold text */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Subtle text shadow */
+    cursor: pointer;
+  }
+  
+  
+  
+  @media (max-width: 768px) {
+    .navbar-menu {
+      display: none;
+      position: absolute;
+      top: 70px;
+      left: 0;
+      width: 300px;
+      background-color: #ffffff;
+      box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    }
+  
+    .navbar-menu.open {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .menu-icon {
+      display: flex;
+    }
+  
+    .nav-item {
+      margin: 0 10px;
+      color: black;
+    }
+  }
+  

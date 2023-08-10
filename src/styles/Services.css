@@ -1,0 +1,93 @@
+/* Services Component Styling */
+
+.services {
+    padding: 20px 0;
+    background-color: #cca873;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  text-align: center;
+  }
+  
+  .services-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+  .service-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    /* background-color: #f0f0f0; */
+    /* padding: 20px; */
+  }
+  
+  .service-image {
+    max-width: 250px;
+    height: 250px;
+    border-radius: 25px;
+    margin: 10px;
+  }
+  
+  .service-info {
+    margin-top: 10px;
+  }
+  
+  .service-title {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    /* margin-top: 40px; */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    
+  }
+  
+  .add-to-cart-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    width:100px;
+    height:30px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .add-to-cart-btn:hover {
+    background-color: #0056b3; /* Change color on hover */
+  }
+  
+ 
+  /* Media Query for Smaller Screens */
+ @media (max-width: 768px) {
+    .services-container {
+      justify-content: center; /* Center the items */
+    }
+  
+    .services {
+        padding:0;
+      }
+    .service-item {
+      width: calc(40% - 10px); /* Two items per row with spacing */
+      margin: 15px;
+    }
+
+    .service-image {
+        width: 150px;
+        height: 150px;
+        border-radius: 25px;
+       margin:0 auto ;
+      }
+
+      /* .section-title {
+        font-size: 1.2rem;
+      margin-bottom: 10px;
+      margin-top: 20px;
+      text-align: center;
+      } */
+  }

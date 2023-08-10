@@ -1,0 +1,123 @@
+/* Footer Styling */
+.footer {
+  background-color: #222;
+  color: #fff;
+  padding: 40px 0;
+  /* margin: 20px auto; */
+}
+
+.footer-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.contact-form {
+  flex: 1;
+  padding: 20px;
+  background-color: #333;
+  border-radius: 10px;
+  max-width:400px;
+  /* border: 2px solid white; */
+  margin-right: 40px;
+  text-align: center;
+  margin-top: -60px;
+}
+
+.contact-input,
+textarea {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #555;
+  border-radius: 4px;
+  background-color: #444;
+  color: #fff;
+}
+
+.contact-btn {
+  background-color: #3b0c0c;
+  color: #ffffff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 50%;
+  transition: background-color 0.3s, box-shadow 0.3s;
+  
+}
+
+.contact-btn:hover {
+  background-color: #600f0f;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.footer-info {
+  display: flex;
+  flex:1;
+  flex-direction: column;
+  align-items: center;
+  /* border: 2px solid white; */
+  padding: 20px; /* Add padding for spacing */
+}
+
+.footer-logo {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid white;
+  margin-bottom: 20px; 
+}
+
+
+
+.footer-about {
+  margin-left: 20px;
+  margin-bottom: 20px;
+  font-family: 'Open Sans';
+  line-height: 1.5;
+  word-spacing: 2px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.footer-address {
+  font-size: 1.2rem;
+  font-family: 'Open Sans';
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .footer-section {
+    flex-direction: column;
+    text-align: center;
+    /* margin-left: 50px; */
+  }
+
+  .footer-info {
+      text-align: center;
+      border: none; /* Remove the border on smaller screens */
+      padding: 0; /* Reset padding */
+  }
+
+ 
+
+  .footer-about {
+    /* border: 1px solid white; */
+    font-size: 0.9rem;
+    text-align: left;
+    margin-right: 20px;
+    line-height: 1.5;
+  word-spacing: 2px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  .contact-form {
+   
+    margin-top: 20px; /* Adjust margin for spacing */
+    margin-left: 45px;
+  }
+}
