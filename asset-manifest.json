@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/The-Coffee-shop/static/css/main.62d829c4.css",
+    "main.js": "/The-Coffee-shop/static/js/main.37b1d494.js",
+    "static/js/787.91cac32e.chunk.js": "/The-Coffee-shop/static/js/787.91cac32e.chunk.js",
+    "static/media/banner-2.jpg": "/The-Coffee-shop/static/media/banner-2.e6a5cc02a6cbd5db1f95.jpg",
+    "static/media/banner-1.jpg": "/The-Coffee-shop/static/media/banner-1.caf15f8d97d024727b24.jpg",
+    "static/media/turkish.jpg": "/The-Coffee-shop/static/media/turkish.89612a3c67114bec7194.jpg",
+    "static/media/premium.jpg": "/The-Coffee-shop/static/media/premium.517c716a41cf3d4be10e.jpg",
+    "static/media/pastries.jpg": "/The-Coffee-shop/static/media/pastries.21245055e3dd455841e8.jpg",
+    "static/media/shots.jpg": "/The-Coffee-shop/static/media/shots.72ea1c2b2e5195c2e1f3.jpg",
+    "static/media/logo.jpg": "/The-Coffee-shop/static/media/logo.bc2735cfac6b05f29953.jpg",
+    "static/media/irish.jpg": "/The-Coffee-shop/static/media/irish.89d88c7fbfdf2ac6c9ad.jpg",
+    "static/media/cold.jpg": "/The-Coffee-shop/static/media/cold.6033b24dcae7d4a2bed1.jpg",
+    "static/media/frenchpress.jpg": "/The-Coffee-shop/static/media/frenchpress.c817aa3bdc8adf46dd65.jpg",
+    "static/media/footer.jpg": "/The-Coffee-shop/static/media/footer.ec33ba6a9b311dd9700e.jpg",
+    "static/media/latte.jpg": "/The-Coffee-shop/static/media/latte.623e939c8be6a3d9e026.jpg",
+    "index.html": "/The-Coffee-shop/index.html",
+    "main.62d829c4.css.map": "/The-Coffee-shop/static/css/main.62d829c4.css.map",
+    "main.37b1d494.js.map": "/The-Coffee-shop/static/js/main.37b1d494.js.map",
+    "787.91cac32e.chunk.js.map": "/The-Coffee-shop/static/js/787.91cac32e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.62d829c4.css",
+    "static/js/main.37b1d494.js"
+  ]
+}
